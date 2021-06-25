@@ -1,0 +1,59 @@
+/*
+*画面のスタイルシート
+*/
+
+
+body{
+    font-family: "Noto Sans JP","sans-seri";
+    margin: 0;
+    min-width: 1076px;
+
+}
+
+
+/*
+*headerのスタイルシート
+*/
+
+.block-header{
+
+    background-image: url("img/長方形1.png");
+    padding: 0 0 500px;   
+    margin-top: 0;
+    background-position: left top;
+    
+}
+
+
+
+
+.block-header li{
+   
+    width: 50px;
+    text-align: left;
+    float: left;
+    list-style: none;
+
+    display: flex;
+    justify-content: left;
+    align-items: left;
+
+   
+ 
+    
+    
+      
+}
+
+
+.block-header li a{
+
+    font-size: 10px;
+    text-decoration: none 
+    
+
+ 
+  
+
+    
+}
