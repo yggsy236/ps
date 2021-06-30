@@ -6,8 +6,9 @@
 body{
     font-family: "Noto Sans JP","sans-seri";
     margin: 0;
+    padding: 0;
     min-width: 1076px;
-
+    
 }
 
 
@@ -15,45 +16,132 @@ body{
 *headerのスタイルシート
 */
 
-.block-header{
+.pageHeader{
+    text-align: center;
 
+}
+
+#header{
     background-image: url("img/長方形1.png");
-    padding: 0 0 500px;   
-    margin-top: 0;
-    background-position: left top;
+    background-repeat: no-repeat;
+    position: relative;
     
 }
 
-
-
-
-.block-header li{
-   
-    width: 50px;
+.fontsize{
+    width: 100px;
     text-align: left;
-    float: left;
     list-style: none;
-
+    letter-spacing: 1px;
     display: flex;
     justify-content: left;
-    align-items: left;
+    align-items: left;   
+    color: white;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+   
+}
 
+
+.fontsize li{
+    margin: 10px;
+    border-bottom: 3px solid turquoise;
+    padding-bottom: 5px;
+}
+
+.fontsize li:last-child {
+    margin-right: 0;
+}
+
+
+.header-inner{    
+    max-width: 348px;
+    bottom: 1.5em;
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 200px;
+    
+   
+
+}
+
+.header-inner-clear img{
+
+    float: left;
+    width: 300px;
+    border: 1px white solid;
+    border-radius: 50%;
+    padding: 10px; 
+}
+
+
+.header-inner-clear h1{
+    display: inline-block; 　 /*右側に配置する*/}
+
+
+
+
+
+
+
+/***/
+
+
+
+.box-profile{
+    color: white;
+    font-size: 15px;
+    letter-spacing: 5px;
+    height: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
    
  
-    
-    
-      
 }
 
-
-.block-header li a{
-
-    font-size: 10px;
-    text-decoration: none 
-    
-
- 
-  
-
-    
+.box-profile img{
+    width: 15%;
+    border: 1px white solid;
+    border-radius: 50%;
+    padding: 10px; 
 }
+
+.box-profile b{
+    border-bottom: 3px solid turquoise;
+    padding-bottom: 5px;
+
+.box-profile p{
+
+    padding-bottom: 5px;
+}
+
+/*
+*mainのスタイルシート
+*/
+
+
+
+/*
+*Aboutのスタイルシート
+*/
+
+
+
+/*
+*profileのスタイルシート
+*/
+
+.box-profile{
+
+
+}
+
+.sub-title{
+
+}
+
+/*
+*
+*/
